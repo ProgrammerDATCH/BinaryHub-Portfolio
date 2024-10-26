@@ -1,0 +1,9 @@
+version: '3'
+services:
+  binary-hub-portfolio:
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    image: ghcr.io/programmerdatch/binaryhub-portfolio:latest
+    ports:
+      - "7008:80"
